@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+/* header */
+
+.menu{
+    font-size: 20px;
+    display: inline-flex;
+    margin-left: 450px;
+}
+
+.home{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.icon{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    margin: 4px 10px 0;
+    display: inline-flexbox;
+}
+
+.logo{
+    margin-top: 22px;
+    margin-right: 20px;
+    display: inline-flex;
+
+}
+
+.navbar{
+    padding: 5px 5%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    background-color: rgba(249, 134, 45, 0.9);
+    box-shadow: 0 0 14px rgba(0, 0, 0, 3);
+    
+}
