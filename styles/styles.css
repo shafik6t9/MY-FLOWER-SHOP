@@ -49,11 +49,12 @@
 
 .navbar{
     padding: 5px 5%;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     position: sticky;
-    background-color: rgba(249, 134, 45, 0.9);
-    box-shadow: 0 0 14px rgba(0, 0, 0, 3);
+    background-color: rgb(249, 175, 212);
+    box-shadow: 0 0 13px rgba(0, 0, 0, 3);
+    width: 1382px;
     
 }
 .btn{
@@ -96,14 +97,14 @@
     width: 550px;
     height: 110px;
     color: black;
-    margin-left: 80px;
+    margin-left: 85px;
 }
 .paragraph{
     font-size: medium;
     /* height: 600px; */
     width: 400px;
     margin-top: 110px;
-    margin-left: 80px;
+    margin-left: 85px;
     color: rgb(76, 76, 76);
 }
 
@@ -113,14 +114,14 @@
     border: 8px solid hotpink;
     border-radius: 3px;
     margin-top: 5px;
-    margin-left: 80px;
+    margin-left: 85px;
 }
 
 .img{
     font-size: smaller;
     height: 400px;
     width: 300px;
-    margin-left: 860px;
+    margin-left: 880px;
     margin-bottom: 1000px;
     display: block;
 
