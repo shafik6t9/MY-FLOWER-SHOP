@@ -65,6 +65,65 @@
     /* margin: 5px; */
     margin-left: 50px;
     /* padding-left: 30px; */
-    
-    
 }
+
+    /* header close */
+
+    /* banner */
+.content{
+    padding: 0 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 500px;
+
+}
+
+.banner{
+    background-color: rgb(253, 207, 230);
+    /* margin-bottom: 1500px; */
+    /* height: fit-content; */
+    /* border: 5px solid rgb(253, 207, 230);; */
+    height: 439px;
+    width: 1465px;
+}
+
+.heading{
+    font-size: 58px;
+    font-family: ;
+    display: block;
+    width: 550px;
+    height: 110px;
+    color: black;
+    margin-left: 80px;
+}
+.paragraph{
+    font-size: medium;
+    /* height: 600px; */
+    width: 400px;
+    margin-top: 110px;
+    margin-left: 80px;
+    color: rgb(76, 76, 76);
+}
+
+.button{
+    background-color:hotpink;
+    font-size: small;
+    border: 8px solid hotpink;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-left: 80px;
+}
+
+.img{
+    font-size: smaller;
+    height: 400px;
+    width: 300px;
+    margin-left: 850px;
+    margin-bottom: 1000px;
+    display: block;
+
+}
+
+    /* banner close */
