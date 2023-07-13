@@ -64,13 +64,13 @@
     
 }
 .btn{
-    background-color: blue;
+    background-color: rgba(248, 48, 48, 0.97);
     font-size: medium;
-    border: 4px solid blue;
+    border: 8px solid rgba(248, 48, 48, 0.97);
     border-radius: 3px;
     color: aliceblue;
     /* margin: 5px; */
-    margin-left: 50px;
+    margin-left: 30px;
     /* padding-left: 30px; */
 }
 
@@ -175,9 +175,8 @@
     }
 /* 
     .featured{
-        height: 600px;
-        display: flex; */
-        
+        /* width: 100%; */
+         */
         
     }
     .featured1{
@@ -202,7 +201,7 @@
         padding: 80px 40px 0;
         height: 310px;
         width: 265px;
-        background-color: rgb(251, 223, 238);
+        background-color: rgba(250, 225, 238, 0.778);
         border-radius: 175px 175px 0 0;
         /* border: 10px solid hotpink;; */
     }
@@ -212,7 +211,7 @@
         padding: 80px 40px 0;
         height: 310px;
         width: 265px;
-        background-color:rgb(212, 245, 234);
+        background-color:rgba(212, 245, 234, 0.684);
         border-radius: 175px 175px 0 0;
         /* border: 10px solid rebeccapurple; */
         margin-left: 15px;
@@ -224,7 +223,7 @@
         padding: 80px 40px 0;
         height: 310px;
         width: 265px;
-        background-color: rgb(207, 246, 207);
+        background-color: rgba(209, 245, 209, 0.755);
         border-radius: 175px 175px 0 0;
         /* border: 10px solid green; */
         margin-left: 15px;
@@ -244,3 +243,39 @@
         margin-left: 235px;
         text-decoration: underline;
     }
+
+    /* featured close */
+
+    /* optional starts */
+
+    .ologo{
+        background-color: rgb(245, 245, 245);
+        border: 5px solid rgb(245, 245, 245);
+        border-radius: 4px;
+        /* text-align: center;
+        align-items: center; */
+        height: 190px;
+        width: 1048px;
+        padding: 50px 0 0;
+        margin: 60px 211px 0 ;
+    }
+
+    .logopic{
+        margin-left: 190px;
+    }
+
+    .title{
+        display: flex;
+        padding-top: 25px;
+        margin-left: 60px;
+    }
+
+    .tname{
+        font-size: large;
+        font-family: Arial, Helvetica, Futura, Gill Sans,;
+        margin-left: 45px;
+        color: rgb(75, 75, 75);
+    }
+
+
+    /* optional ends */
