@@ -288,6 +288,7 @@
         width: 100%;
         height: 480px;
         margin: 100px 0 100px 0;
+        display: flex;
 
     }
 
@@ -321,6 +322,15 @@
         background-color: rgb(253, 98, 129);
         border: 14px solid rgb(253, 98, 129);
         border-radius: 5px;
+    }
+
+
+
+    .rose{
+        font-size: smaller;
+        height: 330px;
+        width: 240px;
+        padding: 75px 0 0 110px;
     }
 
 
