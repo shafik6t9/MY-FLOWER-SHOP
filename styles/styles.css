@@ -16,7 +16,10 @@
     /* border: 2px solid blue; */
     /* border-radius: 2px; */
     margin-bottom: 10px;
-    width: 170px;
+    width: 210px;
+    height: 25px;
+    font-size: medium;
+    padding: 5px;
     
 }
 .home{
@@ -47,14 +50,17 @@
 
 }
 
+.nav{
+    width: 100%;
+}
 .navbar{
     padding: 5px 5%;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     position: sticky;
     background-color: rgb(249, 175, 212);
     box-shadow: 0 0 13px rgba(0, 0, 0, 3);
-    width: 1382px;
+    /* width: 1600px; */
     
 }
 .btn{
@@ -82,20 +88,24 @@
 }
 
 .banner{
-    background-color: rgb(253, 207, 230);
+    background-color: rgb(252, 240, 241);
     /* margin-bottom: 1500px; */
     /* height: fit-content; */
     /* border: 5px solid rgb(253, 207, 230);; */
-    height: 439px;
-    width: 1528px;
+    height: 620px;
+    width: 100%;
 }
 
+
+
+
 .heading{
-    font-size: 58px;
-    font-family: ;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
     display: block;
     width: 550px;
     height: 110px;
+    padding: 160px 0 0 40px;
     color: black;
     margin-left: 85px;
 }
@@ -103,28 +113,134 @@
     font-size: medium;
     /* height: 600px; */
     width: 400px;
-    margin-top: 110px;
-    margin-left: 85px;
-    color: rgb(76, 76, 76);
+    /* margin-top: 20px; */
+    margin-left: 79px;
+    padding: 120px 0 0 50px;
+    color: rgb(91, 91, 91);
 }
 
 .button{
-    background-color:hotpink;
-    font-size: small;
-    border: 8px solid hotpink;
+    background-color:rgb(253, 98, 129);
+    font-size: medium;
+    border: 8px solid rgb(253, 98, 129);
+    color: white;
     border-radius: 3px;
-    margin-top: 5px;
-    margin-left: 85px;
+    margin-top: 20px;
+    margin-left: 130px;
+    padding: 4px 9px;
 }
 
 .img{
     font-size: smaller;
-    height: 400px;
-    width: 300px;
-    margin-left: 880px;
-    margin-bottom: 1000px;
+    height: 580px;
+    width: 450px;
+    padding-top: 173px;
+    padding-left: 160px;
+    margin-left: 680px;
+    padding-bottom: 1000px;
+    /* margin-bottom: 1000px; */
     display: block;
 
 }
 
     /* banner close */
+
+    /* featured */
+
+    .contentf{
+        /* text-align: center; */
+        /* margin-top: 100px; */
+        /* display: flex */
+        /* border: 5px solid black ; */
+    }
+
+    .headingf{
+        font-family: sans-serif;
+        font-size: 35px;
+        /* text-align: center; */
+        padding: 90px 0 0 574px;
+
+        color: black;
+    }
+    .paragraphf{
+        font-size: small;
+        width: 455px;
+        margin-top: 13px;
+        padding: 0 0 0 527px;
+        text-align: center;
+        align-items: center;
+
+        /* margin-left: 508px; */
+        color: rgb(91, 91, 91);
+    }
+/* 
+    .featured{
+        height: 600px;
+        display: flex; */
+        
+        
+    }
+    .featured1{
+        padding: 50px 50px 0;
+        height: 500px;
+        width: 1300px;
+        margin: 30px 250px;
+        display: flex
+        border: 5px solid black;
+    }
+
+    .mainp{
+
+        padding: 40px 0 0 210px;
+        display: inline-flex;
+        /* caption-side: bottom; */
+
+    }
+
+        
+    .picture1{
+        padding: 80px 40px 0;
+        height: 310px;
+        width: 265px;
+        background-color: rgb(251, 223, 238);
+        border-radius: 175px 175px 0 0;
+        /* border: 10px solid hotpink;; */
+    }
+        
+    
+    .picture2{
+        padding: 80px 40px 0;
+        height: 310px;
+        width: 265px;
+        background-color:rgb(212, 245, 234);
+        border-radius: 175px 175px 0 0;
+        /* border: 10px solid rebeccapurple; */
+        margin-left: 15px;
+
+         
+    }
+    
+    .picture3{
+        padding: 80px 40px 0;
+        height: 310px;
+        width: 265px;
+        background-color: rgb(207, 246, 207);
+        border-radius: 175px 175px 0 0;
+        /* border: 10px solid green; */
+        margin-left: 15px;
+        
+
+
+    }
+
+
+    .cap{
+        display: flex;
+        padding-top: 25px;
+        margin-left: 60px;
+    }
+    .name{
+        font-size: large;
+        margin-left: 235px;
+        text-decoration: underline;
+    }
