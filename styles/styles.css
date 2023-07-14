@@ -4,77 +4,7 @@
     font-family:sans-serif;
 }
 
-/* header */
 
-.menu{
-    font-size: 20px;
-    display: inline-flex;
-    margin-left: 200px;
-}
-
-.search{
-    /* border: 2px solid blue; */
-    /* border-radius: 2px; */
-    margin-bottom: 10px;
-    width: 210px;
-    height: 25px;
-    font-size: medium;
-    padding: 5px;
-    
-}
-.home{
-    margin-bottom: 20px;
-    /* margin-left: 50px; */
-    /* color: black; */
-    /* text-decoration: none; */
-    margin-right: 40px;
-
-}
-.anchor{
-    color: rgb(15, 15, 15);
-    text-decoration: none;
-}
-
-.icon{
-    width: 25px;
-    height: 3px;
-    background-color: rgb(0, 0, 0);
-    margin: 4px 10px 0;
-    display: inline-flexbox;
-}
-
-.logo{
-    margin-top: 22px;
-    margin-right: 70px;
-    display: inline-flex;
-
-}
-
-.nav{
-    width: 100%;
-}
-.navbar{
-    padding: 5px 5%;
-    display: flex;
-    align-items: center;
-    position: sticky;
-    background-color: rgb(249, 175, 212);
-    box-shadow: 0 0 13px rgba(0, 0, 0, 3);
-    /* width: 1600px; */
-    
-}
-.btn{
-    background-color: rgba(248, 48, 48, 0.97);
-    font-size: medium;
-    border: 8px solid rgba(248, 48, 48, 0.97);
-    border-radius: 3px;
-    color: aliceblue;
-    /* margin: 5px; */
-    margin-left: 30px;
-    /* padding-left: 30px; */
-}
-
-    /* header close */
 
     /* banner */
 .content{
@@ -93,7 +23,7 @@
     /* height: fit-content; */
     /* border: 5px solid rgb(253, 207, 230);; */
     height: 620px;
-    width: 100%;
+    width: 1920px;
 }
 
 
@@ -107,14 +37,14 @@
     height: 110px;
     padding: 160px 0 0 40px;
     color: black;
-    margin-left: 85px;
+    margin-left: 170px;
 }
 .paragraph{
     font-size: medium;
     /* height: 600px; */
     width: 400px;
     /* margin-top: 20px; */
-    margin-left: 79px;
+    margin-left: 164px;
     padding: 120px 0 0 50px;
     color: rgb(91, 91, 91);
 }
@@ -126,7 +56,7 @@
     color: white;
     border-radius: 3px;
     margin-top: 20px;
-    margin-left: 130px;
+    margin-left: 215px;
     padding: 4px 9px;
 }
 
@@ -136,7 +66,7 @@
     width: 450px;
     padding-top: 173px;
     padding-left: 160px;
-    margin-left: 680px;
+    margin-left: 765px;
     padding-bottom: 1000px;
     /* margin-bottom: 1000px; */
     display: block;
@@ -159,7 +89,7 @@
         font-size: 35px;
         /* text-align: center; */
         padding: 90px 0 0 574px;
-
+        margin-left: 210px;
         color: black;
     }
     .paragraphf{
@@ -170,29 +100,17 @@
         text-align: center;
         align-items: center;
 
-        /* margin-left: 508px; */
+        margin-left: 200px;
         color: rgb(91, 91, 91);
     }
-/* 
-    .featured{
-        /* width: 100%; */
-         */
-        
-    }
-    .featured1{
-        padding: 50px 50px 0;
-        height: 500px;
-        width: 1300px;
-        margin: 30px 250px;
-        display: flex
-        border: 5px solid black;
-    }
+
 
     .mainp{
 
         padding: 40px 0 0 210px;
         display: inline-flex;
         /* caption-side: bottom; */
+        margin-left: 230px;
 
     }
 
@@ -236,11 +154,11 @@
     .cap{
         display: flex;
         padding-top: 25px;
-        margin-left: 60px;
+        margin-left: 265px;
     }
     .name{
         font-size: large;
-        margin-left: 235px;
+        margin-left: 245px;
         text-decoration: underline;
     }
 
@@ -255,9 +173,9 @@
         /* text-align: center;
         align-items: center; */
         height: 190px;
-        width: 1048px;
+        width: 1070px;
         padding: 50px 0 0;
-        margin: 60px 211px 0 ;
+        margin: 60px 0 0 430px;
     }
 
     .logopic{
@@ -267,7 +185,7 @@
     .title{
         display: flex;
         padding-top: 25px;
-        margin-left: 60px;
+        margin-left: 65px;
     }
 
     .tname{
@@ -285,7 +203,7 @@
     .hot{
         background-color: rgb(252, 240, 241);
         border: 1px solid rgb(252, 240, 241);
-        width: 100%;
+        width: 1920px;
         height: 480px;
         margin: 100px 0 100px 0;
         display: flex;
@@ -297,6 +215,7 @@
         align-items: center;
         width: 550px;
         padding: 175px 0 0 240px;
+        margin-left: 100px;
     }
 
     .deal{
@@ -331,6 +250,7 @@
         height: 330px;
         width: 240px;
         padding: 75px 0 0 110px;
+        margin-left: 200px;
     }
 
 
@@ -341,8 +261,9 @@
     .media{
         text-align: center;
         align-items: center;
-        width: 455px;
+        width: 440px;
         padding: 15px 0 0 530px;
+        margin-left: 220px;
 
     }
     .media h3{
@@ -362,10 +283,11 @@
     
     .flowers{
         display: flex;
-        height: 320px;
-        width: 570px;
+        height: 300px;
+        width: 545px;
         padding: 25px 0 100px 150px;
         /* border: 1px solid black; */
+        margin-left: 245px;
         
 
     }
@@ -386,7 +308,8 @@
         align-items: center;
         /* margin-left: 100px; */
         /* padding: 0 300px 0; */
-
+        margin-left: 215px;
+        margin-bottom: 0;
         
     }
 
@@ -398,9 +321,9 @@
         background-repeat:no-repeat;
         background-size: contain;
         padding-top: 100px;
-        margin-left: 162px;
-        width: 1150px;
-        height: 449px;
+        margin-left: 192px;
+        width: 1090px;
+        height: 390px;
         
 
         
@@ -440,6 +363,46 @@
     }
 
     /* latest section close */
+
+            /* footer section */
+
+            .footer{
+                width: 1920px;
+                /* height: 450px; */
+                background-color: black;
+                text-align: center;
+                align-items: center;
+                padding: 170px 0 170px 0;
+            }
+
+            .footer h2{
+
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 60px;
+            }
+
+            #flower{
+                color: hotpink;
+            }
+
+            #shop{
+                color: white;
+            }
+
+            #footer{
+                color: white;
+                font-size: medium;
+                width: 540px;
+                padding-left: 685px;
+                margin-top: 15px;
+            }
+
+            #finish{
+                color: rgb(141, 140, 140);
+                margin-top: 20px;
+
+            }
+            /* footer close */
 
 
    
