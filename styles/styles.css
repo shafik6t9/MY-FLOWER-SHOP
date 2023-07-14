@@ -335,3 +335,47 @@
 
 
     /* hot deal close */
+
+    /* instagram */
+    
+    .media{
+        text-align: center;
+        align-items: center;
+        width: 455px;
+        padding: 15px 0 0 530px;
+
+    }
+    .media h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: xx-large;
+    }
+
+    .media p{
+        font-size: small;
+        color: grey;
+        margin-top: 10px;
+
+    }
+
+    
+
+    
+    .flowers{
+        display: flex;
+        height: 320px;
+        width: 570px;
+        padding: 25px 0 100px 150px;
+        /* border: 1px solid black; */
+        
+
+    }
+
+    .flowere{
+
+        margin-left: 15px;
+    }
+
+    /* instagram close */
+
+
+   
